@@ -11,7 +11,7 @@ const start = (response) => {
 
 const upload = (response) => {
   response.writeHead(200, {'Content-Type': 'text/plain; charset=utf-8'})
-  response.write('你好啊，test')
+  response.write('你好啊，test2')
   response.end()
 }
 
